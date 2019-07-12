@@ -23,8 +23,8 @@ Number("3.18"); "3.18"
 Number(" "); "0"
 Number(""); "0"
 Number("22 44"); "22 44"
-Number(false); 
-Number(true);
+Number(false);  "0"
+Number(true); "1"
 ```
 
 3. 🎖 Output of the following
@@ -32,5 +32,5 @@ Number(true);
 ```js
 var x = 10 + "1";
 console.log(x);
-typeof x;
+typeof x; string
 ```
