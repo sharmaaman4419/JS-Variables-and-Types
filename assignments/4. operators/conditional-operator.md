@@ -15,10 +15,26 @@ var firstName = 'John';
 var status = 'single';
 // Your code goes here
 ```
+```js
+if (status === single) {
+  console.log("john is single")
+} else {
+  console.log("john is married")
+}
+}
+```
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
+let a = prompt("enter 1st number");
+let integer1 = Number(a);
+let b = prompt("enter 2nd number");
+let integer2 = Number(b);
+if ( integer1>integer2) {
+    alert(integer1);
+} else {
+}
 ```
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
